@@ -49,9 +49,6 @@ app.get('/api/production/:id',(req, res) => {
   });
 });
 
-
- 
-
 app.listen(3838,() =>{ // running server using port 3838
     console.log('Server started on port 3838...');
   });
